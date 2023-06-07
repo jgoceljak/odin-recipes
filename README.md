@@ -1,1 +1,1 @@
-
+Just a basic toy website made as part of the Odin Project to practice very basic html skills.
