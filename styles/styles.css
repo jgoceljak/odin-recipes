@@ -3,6 +3,7 @@
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+    box-sizing: border-box;
 }
 
 a {
@@ -11,21 +12,29 @@ a {
 }
 
 ul {
-    padding: 0;
+    border: 5px;
+    border-style: solid;
+    border-color: slategray;
+    padding: 50px auto;
+}
+
+ol {
+    border: 5px;
+    border-style: solid;
+    border-color: lightcoral;
 }
 
 ul li{
     list-style: none;
     list-style-position: inside;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 25px auto; 
     margin-bottom: 10px;
 }
 
 ol li {
     text-align: left;
-    margin-bottom: 10px;
+    margin: 20px auto;
 }
 
 li{
@@ -35,4 +44,10 @@ li{
 .recipes {
     font-size: 24px;
     font-weight: bold;
+}
+
+#top {
+    border: 10px;
+    border-style: solid;
+    border-color: goldenrod;
 }
